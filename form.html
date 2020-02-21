@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Membuat Template Website Bootstrap</title>
+    <title>Creating Bootstrap Website Template</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -16,15 +16,17 @@
             <div class="col-md-12 header" id="site-header">
 
                 <header>
-                    <h1 class="title-site">Belajar Bootstrap</h1>
-                    <p class="description">Belajar Membuat Template Website dengan Bootstrap</p>
+                    <h1 class="title-site">Learn Bootstrap</h1>
+                    <p class="description">Learn to Create a Website Template with Bootstrap</p>
                 </header>
 
                 <nav class="menus">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Portofolio</a></li>
+                        <li><a href="form.html">Register</a></li>
+                        <li><a href="showData.html">Members</a></li>
                     </ul>
                 </nav>
 
@@ -34,18 +36,18 @@
         <div class="row">
             <div class="col-md-8 articles" id="site-content">
                 <article class="posts">
-                    <h1>Form Pendaftaran</h1>
+                    <h1>Registration Form</h1>
                     <form class="form-horizontal" role="form">
 
                         <div class="form-group form-group-lg">
-                            <label class="col-sm-2 control-label" for="lg">Nama Depan</label>
+                            <label class="col-sm-2 control-label" for="lg">First Name</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" id="lg">
                             </div>
                         </div>
 
                         <div class="form-group form-group-sm">
-                            <label class="col-sm-2 control-label" for="sm">Nama Belakang</label>
+                            <label class="col-sm-2 control-label" for="sm">Last Name</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" id="sm">
                             </div>
@@ -66,37 +68,37 @@
                         </div>
 
                         <div class="form-group form-group-sm">
-                            <label class="col-sm-2 control-label" for="sm">Tanggal Lahir</label>
+                            <label class="col-sm-2 control-label" for="sm">Birth Date</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="date" id="sm">
                             </div>
                         </div>
 
                         <div class="form-group form-group-sm">
-                            <label class="col-sm-2 control-label" for="sm">Alamat</label>
+                            <label class="col-sm-2 control-label" for="sm">Address</label>
                             <div class="col-sm-10">
                                 <textarea class="form-control" id="comment" rows="5"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group form-group-sm">
-                            <label class="col-sm-2 control-label" for="sm">Jenis Kelamin</label>
+                            <label class="col-sm-2 control-label" for="sm">Gender</label>
                             <div class="col-sm-10">
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="optradio"> Laki-Laki
+                                        <input type="radio" name="optradio"> Male
                                     </label>
                                 </div>
                                 <div class="radio">
                                     <label>
-                                        <input type="radio" name="optradio"> Perempuan
+                                        <input type="radio" name="optradio"> Female
                                     </label>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group form-group-sm">
-                            <label class="col-sm-2 control-label" for="sm">Jurusan</label>
+                            <label class="col-sm-2 control-label" for="sm">Department</label>
                             <div class="col-sm-10">
                                 <select class="form-control" id="sell">
                                     <option>Teknik Informatika</option>
@@ -109,28 +111,28 @@
                         </div>
 
                         <div class="form-group form-group-sm">
-                            <label class="col-sm-2 control-label" for="sm">Hobi</label>
+                            <label class="col-sm-2 control-label" for="sm">Hobby</label>
                             <div class="col-sm-10">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="optradio"> Membaca
+                                        <input type="checkbox" name="optradio"> Reading
                                     </label>
                                 </div>
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="optradio"> Olahraga
+                                        <input type="checkbox" name="optradio"> Sports
                                     </label>
                                 </div>
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="optradio"> Kuliner
+                                        <input type="checkbox" name="optradio"> Culinary
                                     </label>
                                 </div>
                             </div>
                         </div>
 
                         <button type="button" class="btn btn-primary">Save</button>
-                        <button type="button" class="btn btn-success">Kembali</button>
+                        <button type="button" class="btn btn-success">Back</button>
                         <button type="button" class="btn btn-warning">Reset</button>
                     </form>
                 </article>
@@ -140,11 +142,11 @@
                 <aside class="widgets">
                     <h3 class="widget-title">Menu</h3>
                     <ul>
-                        <li><a href="#">Olahraga</a></li>
-                        <li><a href="#">Politik</a></li>
-                        <li><a href="#">Hiburan</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Entertainment</a></li>
                         <li><a href="#">Games</a></li>
-                        <li><a href="#">Sepakbola</a></li>
+                        <li><a href="#">Football</a></li>
                     </ul>
                 </aside>
             </div>
